@@ -1,0 +1,11 @@
+BIG COPPITT HALLOWEEN - UPLOAD GUIDE
+
+1. Extract this ZIP.
+2. In GitHub, upload the CONTENTS (index.html, app.js, style.css, netlify.toml, package.json, and the netlify folder) to the TOP LEVEL of the repository. Do not upload the containing folder or the ZIP itself.
+3. Make sure GitHub displays index.html next to netlify.toml and a netlify/functions folder with four .mjs files.
+4. In Netlify build settings: Base blank, Build command blank, Publish directory . and Functions directory netlify/functions.
+5. Netlify auto-deploys from main. Check the latest deploy File Browser: index.html should be visible at bckbikeride /, not inside another folder.
+6. Under Environment variables set ADMIN_TOKEN to a long random secret, then redeploy. Never commit this token to GitHub.
+7. Test one Sweet Stop submission and verify its pumpkin shows on the public map before sharing.
+
+IMPORTANT: The two local asset references in index.html have also been changed to relative links. Submissions require server functions in netlify/functions.
