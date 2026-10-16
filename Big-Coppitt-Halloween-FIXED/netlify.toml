@@ -1,6 +1,6 @@
 [build]
-  publish = "."
-  functions = "netlify/functions"
+  publish = "big-coppitt-halloween-fixed"
+  functions = "big-coppitt-halloween-fixed/netlify/functions"
 
 [[redirects]]
   from = "/api/stops"
